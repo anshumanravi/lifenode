@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="lifenode">
+    <head>
+        <meta charset="utf-8">
+        <title><%= title %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Fav and touch icons -->
+        <link rel="shortcut icon" href="/assets/ico/favicon.png">
+        <link href="/stylesheets/style.css" media="all" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>  
+        <div id="wrap">
+
+              <!-- Begin page content -->
+              <div class="container" ng-controller="MainCtrl" ng-view></div>  
+
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular-resource.min.js"></script>       
+        <script src="/javascript/controllers/angular_main_controller.js"></script>
+    </body>
+</html>
